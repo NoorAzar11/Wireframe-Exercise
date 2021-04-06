@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(194, 194, 188);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+}
+
+
+nav{
+
+    background-color: rgb(46, 44, 44);
+    margin-bottom: 20px;
+    
+
+}
+
+nav img{
+    position:relative;
+    float:left;
+    width: 150px;
+    height: 70px;
+}
+
+nav ul{
+    position: relative;}
+
+ nav ul li{
+     display:inline-block;
+     padding: 10px;
+         }
+
+         nav ul li a {
+             text-decoration: none;
+             font-weight: bolder;
+             color: darkgray;
+             padding-right: 80px;
+         }
+
+         main div{
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            display: flex;
+         }
+       
+         main p{
+            float: right;
+            width: 300px;;
+            height: 200px;
+            padding-right: 10px;
+            overflow: scroll;
+
+         }
+
+         main  button{
+        float: left;
+         padding: 5px;
+         color: white;
+        background-color: black;
+        width: 200px;
+        margin-top: 300px;
+        margin-left: 300px;
+        transition: 1s;
+
+
+         }
+
+         main button:hover
+      {
+         color: indigo;
+         
+      }
+
+         footer div{
+
+             background-color: rgb(110, 104, 104);
+         }
